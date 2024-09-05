@@ -1,0 +1,1 @@
+Sejarahnya berdirinya SMKN 2 Buduran 
