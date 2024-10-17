@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Bank BRI</title> 
+    
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang Di Bank BRI</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="hero">
+            <h2>Your Trusted Financial Partner</h2>
+            <p>Join us today and experience the best banking services.</p>
+            <button id="explore-button">Explore Our Services</button>
+        </section>
+
+        <section id="services">
+            <h2>Layanan Kami</h2>
+            <div class="service">
+                <img src="images/Rek Giro.jpg" alt="Checking Account" class="service-image">
+                <h3>Memeriksa Akses Untuk</h3>
+                <p>Rekening Giro Akses mudah ke dana tanpa biaya bulanan.</p>
+            </div>
+            <div class="service">
+                <img src="images/Rek Tabungan.jpg" alt="Saving Account" class="service-image">
+                <h3>Rekening Tabungan</h3>
+                <p>Dapatkan bunga atas tabungan anda dengan akses fleksibel.</p>
+            </div>
+            <div class="service">
+                <img src="images/pinjaman.jpg" alt="Loans" class="service-image">
+                <h3>Pinjaman Dapatkan</h3>
+                <p>suku bunga kompetif untuk pinjaman pribadi dan bisnis.</p>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>What Our Customers Say</h2>
+            <blockquote>"Best bank experience ever! Highly recommend."</blockquote>
+            <blockquote>"Great customer service and helpful staff."</blockquote>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form" aria-labelledby="contact">
+                <input type="text" id="name" placeholder="Your Name" required aria-required="true">
+                <input type="email" id="email" placeholder="Your Email" required aria-required="true">
+                <textarea id="message" placeholder="Your Message" required aria-required="true"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="response-message" class="hidden" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Our Bank. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
